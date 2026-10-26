@@ -1,0 +1,12 @@
+@"
+node_modules/
+.next/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+_to_delete/
+_incoming*/
+.DS_Store
+"@ | Set-Content -Encoding utf8 .gitignore
